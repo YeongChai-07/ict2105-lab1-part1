@@ -2,3 +2,9 @@
 01-16 15:11:29.891    2322-2322/sg.edu.sit.ict.lab1part1_logcat D/CREATE﹕ Activity went to the onCreate() state.
 01-16 15:11:34.329    2322-2322/sg.edu.sit.ict.lab1part1_logcat D/CREATE﹕ Activity went to the onCreate() state.
 01-16 15:24:34.421    2322-2322/sg.edu.sit.ict.lab1part1_logcat D/CREATE﹕ Activity went to the onCreate() state.
+
+Second Atttempt (with onRestart())
+01-16 16:39:14.812    2272-2272/sg.edu.sit.ict.lab1part1_logcat D/CREATE﹕ Activity went to the onCreate() state.
+01-16 16:40:56.955    2360-2360/sg.edu.sit.ict.lab1part1_logcat D/CREATE﹕ Activity went to the onCreate() state.
+
+01-16 16:42:01.590    2360-2360/sg.edu.sit.ict.lab1part1_logcat V/RESTARTED﹕ Activity is currently executing onRestart() state.
