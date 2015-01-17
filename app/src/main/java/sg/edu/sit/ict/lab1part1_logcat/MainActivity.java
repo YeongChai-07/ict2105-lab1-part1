@@ -20,6 +20,27 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 
+    @Override
+    protected void onRestart()
+    {
+        /* This means that the activity is being navigated back after being
+         * INACTIVE for a while.
+         */
+        super.onRestart();
+        Log.v("RESTARTED", "Activity is currently executing onRestart() state.");
+
+    }
+    @Override
+    protected void onStop()
+    {
+        /* This means that the current activity is not visible to the user
+         * Could be due to the user is being diverted to another app
+         * OR another activity.
+         */
+        super.onStop();
+        Log.w("STOP", "Executing onStop() function.\nActivity currently not visible to the user !!!");
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

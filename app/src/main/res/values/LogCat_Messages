@@ -1,10 +1,22 @@
+NOTE: This text file contains a list of LogCat message that was received while I'm running the app
+However in order for the app to be compiled successfully, DELETE this text file.
+
 01-16 15:10:16.644    2322-2322/sg.edu.sit.ict.lab1part1_logcat D/CREATE﹕ Activity went to the onCreate() state.
 01-16 15:11:29.891    2322-2322/sg.edu.sit.ict.lab1part1_logcat D/CREATE﹕ Activity went to the onCreate() state.
 01-16 15:11:34.329    2322-2322/sg.edu.sit.ict.lab1part1_logcat D/CREATE﹕ Activity went to the onCreate() state.
 01-16 15:24:34.421    2322-2322/sg.edu.sit.ict.lab1part1_logcat D/CREATE﹕ Activity went to the onCreate() state.
 
-Second Atttempt (with onRestart())
+Second Attempt (with onRestart())
 01-16 16:39:14.812    2272-2272/sg.edu.sit.ict.lab1part1_logcat D/CREATE﹕ Activity went to the onCreate() state.
 01-16 16:40:56.955    2360-2360/sg.edu.sit.ict.lab1part1_logcat D/CREATE﹕ Activity went to the onCreate() state.
 
 01-16 16:42:01.590    2360-2360/sg.edu.sit.ict.lab1part1_logcat V/RESTARTED﹕ Activity is currently executing onRestart() state.
+
+Third Attempt (with onStop())
+01-17 15:04:08.509    2663-2663/sg.edu.sit.ict.lab1part1_logcat D/CREATE﹕ Activity went to the onCreate() state.
+
+01-17 15:05:21.118    2663-2663/sg.edu.sit.ict.lab1part1_logcat W/STOP﹕ Executing onStop() function.
+    Activity currently not visible to the user !!!
+
+01-17 15:05:25.394    2663-2663/sg.edu.sit.ict.lab1part1_logcat D/CREATE﹕ Activity went to the onCreate() state.
+01-17 15:10:31.469    2663-2663/sg.edu.sit.ict.lab1part1_logcat V/RESTARTED﹕ Activity is currently executing onRestart() state.
